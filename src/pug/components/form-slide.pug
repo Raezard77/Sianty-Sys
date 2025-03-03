@@ -1,0 +1,35 @@
+mixin formSlide()
+    .container#container
+        .form-container.sign-up-container
+            form(action="#")
+            h1 Sign Up
+            span or use your email for registration
+            input(type="text" placeholder="Name")
+            input(type="email" placeholder="Email")
+            input(type="password" placeholder="Password")
+            button Sign Up
+
+        .form-container.sign-in-container
+            form(action="#")
+            h1 Sign In
+            .social-container
+                a.social(href="#")
+                i.fab.fa-facebook-f
+                a.social(href="#")
+                i.fab.fa-google-plus-g
+                a.social(href="#")
+                i.fab.fa-linkedin-in
+            span or use your email account
+            input(type="email" placeholder="Email")
+            input(type="password" placeholder="Password")
+            a(href="#") Forgot your password?
+            button Sign In
+        
+        .overlay-container
+            .overlay
+            .overlay-panel.overlay-left
+                h1 Welcome Back!
+                button.ghost#SignIn Sign In
+            .overlay-panel.overlay-right
+                h1 Start Today!
+                button.ghost#SignUp Sign Up
