@@ -60,6 +60,7 @@ gulp.task('css', async _ => {
             }
         }))
         .pipe(sourcemaps.init())
+        // .pipe(sass({ style: 'compressed', silenceDeprecations: ['legacy-js-api'] }).on('error', sass.logError))
         .pipe(sass({ style: 'compressed' }).on('error', sass.logError))
         .pipe(prefix('last 2 versions'))
         .pipe(cleanCSS())
