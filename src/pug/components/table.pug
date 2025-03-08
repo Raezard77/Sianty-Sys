@@ -1,0 +1,46 @@
+mixin table()
+    .container
+        h2 Policies Details
+        .status-bar
+            span.not-sent Not Sent Policies: 
+                span.count.red 3
+            span.sent Sent Policies: 
+                span.count.green 6305
+        .policy-box
+            button.send-btn Send Policies
+            table
+                thead
+                tr
+                    th Policy No
+                    th Customer Name
+                    th Customer ID
+                    th Customer Address
+                    th Coverage Start
+                    th Coverage End
+                    th Beneficiaries Type
+                tbody
+                tr
+                    td: a(href="#") 19614 / 1
+                    td ممدوح عبدلله محمود عبدالرحيـم الخطيب
+                    td 26004222101496
+                    td إسكان البتـراءة من حسن المامون /الدور 5 - 33 شقة/51مدينة نصر
+                    td 2004-09-01
+                    td 2025-09-01
+                    td H
+                tr
+                    td: a(href="#") 21098 / 1
+                    td حمدى احمد فاضل محمد فودة
+                    td 27120261601715
+                    td سنـان/زفتـى/الغربية
+                    td 2007-07-01
+                    td 2027-07-01
+                    td H
+                tr
+                    td: a(href="#") 6007 / 2
+                    td ابتـا ماهر مسعد عمر ابراهيم
+                    td 27704121302763
+                    td كفر داود مطر/ضمت عمر/الدقهلية
+                    td 1999-12-01
+                    td 2027-12-01
+                    td H
+            .no-issue No policy found with issue.

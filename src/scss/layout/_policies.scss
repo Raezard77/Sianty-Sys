@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    text-align: left;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    color: #333
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+    background: #cff3fe;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.count {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.red {
+    background: #dc3545;
+    color: white;
+}
+
+.green {
+    background: #28a745;
+    color: white;
+}
+
+.policy-box {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.send-btn {
+    display: block;
+    width: 98.7%;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.send-btn:hover {
+    background: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    outline: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #e9f7fd;
+}
+
+td a {
+    color: #fff;
+    background-color: #13c3ed;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.no-issue {
+    background: #cff3fe;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(6, 61, 6)
+}
