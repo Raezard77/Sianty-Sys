@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تفاصيل الطلب</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        .print-btn {
+            display: block;
+            width: 100px;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        @media print {
+            .print-btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p><strong>رقم الأمر:</strong> 2039</p>
+        <p><strong>المحافظة:</strong> الجيزة</p>
+        <p><strong>المنطقة:</strong> الشيخ زايد</p>
+        <p><strong>حالة الأمر:</strong> جديد</p>
+        <p><strong>اسم العميل:</strong> عماد قبيل</p>
+        <p><strong>الهاتف:</strong> 01223601402</p>
+        <p><strong>العنوان:</strong> كمبوند أوبرا سيتي الحي 6 الشيخ زايد عمارة 1596 الدور 4 شقة4</p>
+        <p><strong>الجهاز:</strong> غسالة</p>
+        <p><strong>الماركة:</strong> زانوسي وكوك</p>
+        <p><strong>العطل:</strong> تسريب مياه</p>
+        <p><strong>اليوم:</strong> الجمعة</p>
+        <p><strong>التاريخ:</strong> 2025/2/21</p>
+        <p><strong>خدمة العملاء:</strong> سما</p>
+        <p><strong>رسوم الزيارة:</strong> 200</p>
+        <p><strong>اسم الفني:</strong> ابراهيم</p>
+        
+        <button class="print-btn" onclick="window.print()">طباعة</button>
+    </div>
+</body>
+</html>
